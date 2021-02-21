@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Atributos placeholder y required</title>
+	</head>
+	<body>
+		<form>
+			<p><b>Primer nombre </b></p>
+			<br />
+			<input
+				type="text"
+				name="primerNombre"
+				placeholder="coloque su primer nombre"
+				required
+			/><br />
+			<p><b>Apellidos </b></p>
+			<br />
+			<input
+				type="text"
+				name="apellido"
+				placeholder="coloque su apellido"
+				required
+			/><br />
+			<p><b>Contraseña </b></p>
+			<br />
+			<input
+				type="password"
+				name="password"
+				placeholder="coloque su contraseña mínimo 5 caracteres"
+				required
+			/><br />
+			<p><b>Confirmar contraseña</b></p>
+			<input
+				type="password"
+				name="passwordConfirm"
+				placeholder="confirme la contraseña por favor"
+				required
+			/>
+			<input type="submit" name="enviar" />
+		</form>
+	</body>
+</html>

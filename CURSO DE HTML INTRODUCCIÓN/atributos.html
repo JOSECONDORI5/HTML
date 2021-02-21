@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Atributos</title>
+	</head>
+	<body>
+		<!-- 
+        name : identificador para usarlo desde el servidor
+        type : tipo de input
+        value : valor por defecto
+        autofocus : posiciona el cursor en el input
+        required : campo obligatorio
+        placeholder : información en formato texto fondo
+        disabled : desabilita el input
+        -->
+
+		<form>
+			<p>
+				<strong>Usuario:</strong>
+			</p>
+			<br />
+			<input type="text" name="usuario" value="andres" required autofocus />
+			<br />
+			<p>
+				<strong>Pass:</strong>
+			</p>
+			<br />
+			<input
+				type="password"
+				name="pass"
+				required
+				placeholder="Ingrese password"
+			/>
+			<br />
+			<br />
+			<input type="submit" name="enviar" />
+		</form>
+	</body>
+</html>
